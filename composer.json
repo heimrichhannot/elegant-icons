@@ -1,6 +1,6 @@
 {
   "name": "heimrichhannot/elegant-icons",
-  "description": "The Elegant Icon Font from http://www.elegantthemes.com/blog/resources/elegant-icon-font.",
+  "description": "The Elegant Icon Font from http://www.elegantthemes.com/blog/resources/elegant-icon-font as composer component with less support.",
   "type": "component",
   "license": [
     "MIT",
