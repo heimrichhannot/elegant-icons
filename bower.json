@@ -1,0 +1,24 @@
+{
+  "name": "components-elegant-icons",
+  "description": "Elegant icons, the icon font designed by Elegant Themes.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heimrichhannot/elegant-icons.git"
+  },
+  "main": [
+      "css/elegant-icons.css",
+      "less/elegant-icons.less",
+      "fonts/elegant-icons.eot",
+      "fonts/elegant-icons.woff",
+      "fonts/elegant-icons.ttf",
+      "fonts/elegant-icons.svg"
+  ],
+  "license": [
+    "MIT",
+    "GPL 2.0"
+  ],
+  "ignore": [
+    "composer.json"
+  ]
+}
+
