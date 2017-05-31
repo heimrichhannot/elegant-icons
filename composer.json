@@ -18,6 +18,7 @@
         "css/elegant-icons.min.css",
         "fonts/*",
         "less/*"
+	"scss/*"
       ]
     }
   }
