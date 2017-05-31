@@ -1,0 +1,50 @@
+@import 'utils';
+@import 'icons-list';
+
+$ei-icon-prefix: 'ei-' !default;
+$ei-default-placement: 'before' !default;
+$ei-generate-classes: false !default;
+
+@include elegant-icons-font-face();
+
+%common-icon-properties {
+	font-family: $ei-font-family;
+	font-style: normal;
+  font-variant: normal;
+	font-weight: normal;
+  line-height: 1;
+  speak: none;
+	text-transform: none;
+}
+
+// Icon definition mixin
+@mixin elegant-icon($icon-name, $placement: $ei-default-placement) {
+  @if ($placement != 'before' and $placement != 'after') {
+    @error 'The icon placement can only be set as \'before\' or \'after\'';
+  }
+
+  &::#{$placement} {
+    @extend %common-icon-properties;
+
+		content: unicode('#{map-get($ei-icons-list, str-replace($icon-name, 'icon_', ''))}');
+  }
+}
+
+// Set each icon rules
+@each $icon-name, $icon-code in $ei-icons-list {
+  // Generate sass placeholders
+  %#{$ei-icon-prefix}icon_#{$icon-name},
+	%#{$ei-icon-prefix}#{$icon-name} {
+    @include elegant-icon($icon-name);
+  }
+
+  // Generate class selectors
+  @if $ei-generate-classes {
+    .#{$ei-icon-prefix} {
+      &#{$icon-name},
+      &icon_#{$icon-name} {
+        @extend %#{$ei-icon-prefix}#{$icon-name};
+      }
+    }
+  }
+}

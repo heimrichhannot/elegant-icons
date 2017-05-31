@@ -1,0 +1,74 @@
+$ei-use-local-fonts: false !default;
+$ei-font-path-cdn: 'https://cdn.rawgit.com/mdentinho/elegant-icons-sass/e48e7df0/fonts' !default;
+$ei-font-path-local: '/fonts' !default;
+$ei-font-filename: 'ElegantIcons' !default;
+$ei-font-family: $ei-font-filename !default;
+$ei-font-formats: woff2 woff !default;
+
+// Add unicode escape backslash
+@function unicode($str) {
+  @return unquote('\'')+unquote(str-insert($str, '\\', 1))+unquote('\'');
+};
+
+// String replace
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+// Get the keys of a map
+@function get-map-keys($map) {
+  $keys: ();
+
+  @each $key, $value in $map {
+    $keys: append($keys, $key);
+  }
+
+  @return $keys;
+}
+
+// Define the icon font face
+@mixin elegant-icons-font-face() {
+
+  $src: null;
+  $path: '#{
+    if($ei-use-local-fonts,
+       $ei-font-path-local,
+       $ei-font-path-cdn)
+    }/#{$ei-font-filename}';
+
+  $available-formats: (
+    eot: 'embedded-opentype',
+    woff2: 'woff2',
+    woff: 'woff',
+    ttf: 'truetype',
+    svg: 'svg',
+  );
+
+	$formats-appendices: (
+		eot: "?",
+		svg: "#ElegantIcons"
+	);
+
+	@each $format in $ei-font-formats {
+    @if (map-has-key($available-formats, $format) == false) {
+      @error '#{$format} is not a valid format. The available formats are: #{get-map-keys($available-formats)}';
+    }
+
+		$extension: if(map-has-key($formats-appendices, $format), $format + map-get($formats-appendices, $format), $format);
+		$format: if(map-has-key($available-formats, $format), map-get($available-formats, $format), $format);
+		$src: append($src, url(quote($path + "." + $extension)) format(quote($format)), comma);
+	}
+
+	@font-face {
+		font-family: $ei-font-family;
+		font-style: normal;
+		font-weight: normal;
+		src: $src;
+	}
+}
