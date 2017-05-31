@@ -17,7 +17,7 @@
       "files": [
         "css/elegant-icons.min.css",
         "fonts/*",
-        "less/*"
+        "less/*",
 	"scss/*"
       ]
     }
