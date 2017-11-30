@@ -7,7 +7,8 @@
     "OFL-1.1"
   ],
   "require": {
-	"contao-components/installer": "^1.0.9"
+	"contao-components/installer": "^1.0.9",
+    "contao/core-bundle": "^3.0"
   },
   "extra": {
     "branch-alias": {

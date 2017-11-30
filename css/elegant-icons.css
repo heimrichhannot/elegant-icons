@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'elegant-icons';
-  src: url('../fonts/elegant-icons.eot?d918s8');
-  src: url('../fonts/elegant-icons.eot?#iefixd918s8') format('embedded-opentype'), url('../fonts/elegant-icons.woff?d918s8') format('woff'), url('../fonts/elegant-icons.ttf?d918s8') format('truetype'), url('../fonts/elegant-icons.svg?d918s8##icomoon') format('svg');
+  font-family: 'ElegantIcons';
+  src: url('../fonts/ElegantIcons.eot?d918s8');
+  src: url('../fonts/ElegantIcons.eot?#iefixd918s8') format('embedded-opentype'), url('../fonts/ElegantIcons.woff?d918s8') format('woff'), url('../fonts/ElegantIcons.ttf?d918s8') format('truetype'), url('../fonts/ElegantIcons.svg?d918s8##icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 .ei {
   display: inline-block;
-  font-family: 'elegant-icons' !important;
+  font-family: 'ElegantIcons' !important;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
