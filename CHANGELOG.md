@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.2] - 2017-12-05
+
+### Fixed
+- less variables for updated elegant icons font (see 1.2.0)
+
 ## [1.2.1] - 2017-12-04
 
 ### Fixed
