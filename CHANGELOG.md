@@ -1,7 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [1.3.3] - 2017-18-05
+## [1.3.4] - 2017-12-18
+
+### Fixed
+- restored @ei-var-circle-slelected at variables.less
+
+## [1.3.3] - 2017-12-18
 
 ### Fixed
 - spelling mistakes in less
