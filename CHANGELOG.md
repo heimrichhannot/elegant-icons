@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.3] - 2017-12-18
+
+### Fixed
+- spelling mistakes in less
+
 ## [1.2.2] - 2017-12-05
 
 ### Fixed
