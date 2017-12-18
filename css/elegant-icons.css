@@ -1,2177 +1,2183 @@
 @font-face {
-  font-family: 'ElegantIcons';
-  src: url('../fonts/ElegantIcons.eot?d918s8');
-  src: url('../fonts/ElegantIcons.eot?#iefixd918s8') format('embedded-opentype'), url('../fonts/ElegantIcons.woff?d918s8') format('woff'), url('../fonts/ElegantIcons.ttf?d918s8') format('truetype'), url('../fonts/ElegantIcons.svg?d918s8##icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'ElegantIcons';
+    src: url('../fonts/ElegantIcons.eot?d918s8');
+    src: url('../fonts/ElegantIcons.eot?#iefixd918s8') format('embedded-opentype'), url('../fonts/ElegantIcons.woff?d918s8') format('woff'), url('../fonts/ElegantIcons.ttf?d918s8') format('truetype'), url('../fonts/ElegantIcons.svg?d918s8##icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 /* line 10, elegant-icons-sass.scss */
 .ei {
-  font-family: "ElegantIcons";
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  speak: none;
-  text-transform: none;
+    font-family: "ElegantIcons";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    speak: none;
+    text-transform: none;
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_up::before,
 .ei-icon_arrow_up::before {
-  content: '\21';
+    content: '\21';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_down::before,
 .ei-icon_arrow_down::before {
-  content: '\22';
+    content: '\22';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left::before,
 .ei-icon_arrow_left::before {
-  content: '\23';
+    content: '\23';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_right::before,
 .ei-icon_arrow_right::before {
-  content: '\24';
+    content: '\24';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left-up::before,
 .ei-icon_arrow_left-up::before {
-  content: '\25';
+    content: '\25';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_right-up::before,
 .ei-icon_arrow_right-up::before {
-  content: '\26';
+    content: '\26';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_right-down::before,
 .ei-icon_arrow_right-down::before {
-  content: '\27';
+    content: '\27';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left-down::before,
 .ei-icon_arrow_left-down::before {
-  content: '\28';
+    content: '\28';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow-up-down::before,
 .ei-icon_arrow-up-down::before {
-  content: '\29';
+    content: '\29';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_up-down_alt::before,
 .ei-icon_arrow_up-down_alt::before {
-  content: '\2a';
+    content: '\2a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left-right_alt::before,
 .ei-icon_arrow_left-right_alt::before {
-  content: '\2b';
+    content: '\2b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left-right::before,
 .ei-icon_arrow_left-right::before {
-  content: '\2c';
+    content: '\2c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_expand_alt2::before,
 .ei-icon_arrow_expand_alt2::before {
-  content: '\2d';
+    content: '\2d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_expand_alt::before,
 .ei-icon_arrow_expand_alt::before {
-  content: '\2e';
+    content: '\2e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_condense::before,
 .ei-icon_arrow_condense::before {
-  content: '\2f';
+    content: '\2f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_expand::before,
 .ei-icon_arrow_expand::before {
-  content: '\30';
+    content: '\30';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_move::before,
 .ei-icon_arrow_move::before {
-  content: '\31';
+    content: '\31';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-up::before,
 .ei-icon_arrow_carrot-up::before {
-  content: '\32';
+    content: '\32';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-down::before,
 .ei-icon_arrow_carrot-down::before {
-  content: '\33';
+    content: '\33';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-left::before,
 .ei-icon_arrow_carrot-left::before {
-  content: '\34';
+    content: '\34';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-right::before,
 .ei-icon_arrow_carrot-right::before {
-  content: '\35';
+    content: '\35';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2up::before,
 .ei-icon_arrow_carrot-2up::before {
-  content: '\36';
+    content: '\36';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2down::before,
 .ei-icon_arrow_carrot-2down::before {
-  content: '\37';
+    content: '\37';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2left::before,
 .ei-icon_arrow_carrot-2left::before {
-  content: '\38';
+    content: '\38';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2right::before,
 .ei-icon_arrow_carrot-2right::before {
-  content: '\39';
+    content: '\39';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-up_alt2::before,
 .ei-icon_arrow_carrot-up_alt2::before {
-  content: '\3a';
+    content: '\3a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-down_alt2::before,
 .ei-icon_arrow_carrot-down_alt2::before {
-  content: '\3b';
+    content: '\3b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-left_alt2::before,
 .ei-icon_arrow_carrot-left_alt2::before {
-  content: '\3c';
+    content: '\3c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-right_alt2::before,
 .ei-icon_arrow_carrot-right_alt2::before {
-  content: '\3d';
+    content: '\3d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2up_alt2::before,
 .ei-icon_arrow_carrot-2up_alt2::before {
-  content: '\3e';
+    content: '\3e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2down_alt2::before,
 .ei-icon_arrow_carrot-2down_alt2::before {
-  content: '\3f';
+    content: '\3f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2left_alt2::before,
 .ei-icon_arrow_carrot-2left_alt2::before {
-  content: '\40';
+    content: '\40';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2right_alt2::before,
 .ei-icon_arrow_carrot-2right_alt2::before {
-  content: '\41';
+    content: '\41';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-up::before,
 .ei-icon_arrow_triangle-up::before {
-  content: '\42';
+    content: '\42';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-down::before,
 .ei-icon_arrow_triangle-down::before {
-  content: '\43';
+    content: '\43';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-left::before,
 .ei-icon_arrow_triangle-left::before {
-  content: '\44';
+    content: '\44';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-right::before,
 .ei-icon_arrow_triangle-right::before {
-  content: '\45';
+    content: '\45';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-up_alt2::before,
 .ei-icon_arrow_triangle-up_alt2::before {
-  content: '\46';
+    content: '\46';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-down_alt2::before,
 .ei-icon_arrow_triangle-down_alt2::before {
-  content: '\47';
+    content: '\47';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-left_alt2::before,
 .ei-icon_arrow_triangle-left_alt2::before {
-  content: '\48';
+    content: '\48';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-right_alt2::before,
 .ei-icon_arrow_triangle-right_alt2::before {
-  content: '\49';
+    content: '\49';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_back::before,
 .ei-icon_arrow_back::before {
-  content: '\4a';
+    content: '\4a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-minus-06::before,
 .ei-icon_minus-06::before {
-  content: '\4b';
+    content: '\4b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-plus::before,
 .ei-icon_plus::before {
-  content: '\4c';
+    content: '\4c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-close::before,
 .ei-icon_close::before {
-  content: '\4d';
+    content: '\4d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-check::before,
 .ei-icon_check::before {
-  content: '\4e';
+    content: '\4e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-minus_alt2::before,
 .ei-icon_minus_alt2::before {
-  content: '\4f';
+    content: '\4f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-plus_alt2::before,
 .ei-icon_plus_alt2::before {
-  content: '\50';
+    content: '\50';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-close_alt2::before,
 .ei-icon_close_alt2::before {
-  content: '\51';
+    content: '\51';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-check_alt2::before,
 .ei-icon_check_alt2::before {
-  content: '\52';
+    content: '\52';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-zoom-out_alt::before,
 .ei-icon_zoom-out_alt::before {
-  content: '\53';
+    content: '\53';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-zoom-in_alt::before,
 .ei-icon_zoom-in_alt::before {
-  content: '\54';
+    content: '\54';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-search::before,
 .ei-icon_search::before {
-  content: '\55';
+    content: '\55';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-box-empty::before,
 .ei-icon_box-empty::before {
-  content: '\56';
+    content: '\56';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-box-selected::before,
 .ei-icon_box-selected::before {
-  content: '\57';
+    content: '\57';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-minus-box::before,
 .ei-icon_minus-box::before {
-  content: '\58';
+    content: '\58';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-plus-box::before,
 .ei-icon_plus-box::before {
-  content: '\59';
+    content: '\59';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-box-checked::before,
 .ei-icon_box-checked::before {
-  content: '\5a';
+    content: '\5a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-circle-empty::before,
 .ei-icon_circle-empty::before {
-  content: '\5b';
+    content: '\5b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-circle-slelected::before,
 .ei-icon_circle-slelected::before {
-  content: '\5c';
+    content: '\5c';
+}
+
+/* line 26, elegant-icons-sass.scss */
+.ei-circle-selected::before,
+.ei-icon_circle-selected::before {
+    content: '\5c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-stop_alt2::before,
 .ei-icon_stop_alt2::before {
-  content: '\5d';
+    content: '\5d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-stop::before,
 .ei-icon_stop::before {
-  content: '\5e';
+    content: '\5e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pause_alt2::before,
 .ei-icon_pause_alt2::before {
-  content: '\5f';
+    content: '\5f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pause::before,
 .ei-icon_pause::before {
-  content: '\60';
+    content: '\60';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-menu::before,
 .ei-icon_menu::before {
-  content: '\61';
+    content: '\61';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-menu-square_alt2::before,
 .ei-icon_menu-square_alt2::before {
-  content: '\62';
+    content: '\62';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-menu-circle_alt2::before,
 .ei-icon_menu-circle_alt2::before {
-  content: '\63';
+    content: '\63';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-ul::before,
 .ei-icon_ul::before {
-  content: '\64';
+    content: '\64';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-ol::before,
 .ei-icon_ol::before {
-  content: '\65';
+    content: '\65';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-adjust-horiz::before,
 .ei-icon_adjust-horiz::before {
-  content: '\66';
+    content: '\66';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-adjust-vert::before,
 .ei-icon_adjust-vert::before {
-  content: '\67';
+    content: '\67';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-document_alt::before,
 .ei-icon_document_alt::before {
-  content: '\68';
+    content: '\68';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-documents_alt::before,
 .ei-icon_documents_alt::before {
-  content: '\69';
+    content: '\69';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pencil::before,
 .ei-icon_pencil::before {
-  content: '\6a';
+    content: '\6a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pencil-edit_alt::before,
 .ei-icon_pencil-edit_alt::before {
-  content: '\6b';
+    content: '\6b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pencil-edit::before,
 .ei-icon_pencil-edit::before {
-  content: '\6c';
+    content: '\6c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder-alt::before,
 .ei-icon_folder-alt::before {
-  content: '\6d';
+    content: '\6d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder-open_alt::before,
 .ei-icon_folder-open_alt::before {
-  content: '\6e';
+    content: '\6e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder-add_alt::before,
 .ei-icon_folder-add_alt::before {
-  content: '\6f';
+    content: '\6f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-info_alt::before,
 .ei-icon_info_alt::before {
-  content: '\70';
+    content: '\70';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-error-oct_alt::before,
 .ei-icon_error-oct_alt::before {
-  content: '\71';
+    content: '\71';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-error-circle_alt::before,
 .ei-icon_error-circle_alt::before {
-  content: '\72';
+    content: '\72';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-error-triangle_alt::before,
 .ei-icon_error-triangle_alt::before {
-  content: '\73';
+    content: '\73';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-question_alt2::before,
 .ei-icon_question_alt2::before {
-  content: '\74';
+    content: '\74';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-question::before,
 .ei-icon_question::before {
-  content: '\75';
+    content: '\75';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-comment_alt::before,
 .ei-icon_comment_alt::before {
-  content: '\76';
+    content: '\76';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-chat_alt::before,
 .ei-icon_chat_alt::before {
-  content: '\77';
+    content: '\77';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-vol-mute_alt::before,
 .ei-icon_vol-mute_alt::before {
-  content: '\78';
+    content: '\78';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-volume-low_alt::before,
 .ei-icon_volume-low_alt::before {
-  content: '\79';
+    content: '\79';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-volume-high_alt::before,
 .ei-icon_volume-high_alt::before {
-  content: '\7a';
+    content: '\7a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-quotations::before,
 .ei-icon_quotations::before {
-  content: '\7b';
+    content: '\7b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-quotations_alt2::before,
 .ei-icon_quotations_alt2::before {
-  content: '\7c';
+    content: '\7c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-clock_alt::before,
 .ei-icon_clock_alt::before {
-  content: '\7d';
+    content: '\7d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-lock_alt::before,
 .ei-icon_lock_alt::before {
-  content: '\7e';
+    content: '\7e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-lock-open_alt::before,
 .ei-icon_lock-open_alt::before {
-  content: '\e000';
+    content: '\e000';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-key_alt::before,
 .ei-icon_key_alt::before {
-  content: '\e001';
+    content: '\e001';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cloud_alt::before,
 .ei-icon_cloud_alt::before {
-  content: '\e002';
+    content: '\e002';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cloud-upload_alt::before,
 .ei-icon_cloud-upload_alt::before {
-  content: '\e003';
+    content: '\e003';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cloud-download_alt::before,
 .ei-icon_cloud-download_alt::before {
-  content: '\e004';
+    content: '\e004';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-image::before,
 .ei-icon_image::before {
-  content: '\e005';
+    content: '\e005';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-images::before,
 .ei-icon_images::before {
-  content: '\e006';
+    content: '\e006';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-lightbulb_alt::before,
 .ei-icon_lightbulb_alt::before {
-  content: '\e007';
+    content: '\e007';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-gift_alt::before,
 .ei-icon_gift_alt::before {
-  content: '\e008';
+    content: '\e008';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-house_alt::before,
 .ei-icon_house_alt::before {
-  content: '\e009';
+    content: '\e009';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-genius::before,
 .ei-icon_genius::before {
-  content: '\e00a';
+    content: '\e00a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-mobile::before,
 .ei-icon_mobile::before {
-  content: '\e00b';
+    content: '\e00b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-tablet::before,
 .ei-icon_tablet::before {
-  content: '\e00c';
+    content: '\e00c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-laptop::before,
 .ei-icon_laptop::before {
-  content: '\e00d';
+    content: '\e00d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-desktop::before,
 .ei-icon_desktop::before {
-  content: '\e00e';
+    content: '\e00e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-camera_alt::before,
 .ei-icon_camera_alt::before {
-  content: '\e00f';
+    content: '\e00f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-mail_alt::before,
 .ei-icon_mail_alt::before {
-  content: '\e010';
+    content: '\e010';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cone_alt::before,
 .ei-icon_cone_alt::before {
-  content: '\e011';
+    content: '\e011';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-ribbon_alt::before,
 .ei-icon_ribbon_alt::before {
-  content: '\e012';
+    content: '\e012';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-bag_alt::before,
 .ei-icon_bag_alt::before {
-  content: '\e013';
+    content: '\e013';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-creditcard::before,
 .ei-icon_creditcard::before {
-  content: '\e014';
+    content: '\e014';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cart_alt::before,
 .ei-icon_cart_alt::before {
-  content: '\e015';
+    content: '\e015';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-paperclip::before,
 .ei-icon_paperclip::before {
-  content: '\e016';
+    content: '\e016';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-tag_alt::before,
 .ei-icon_tag_alt::before {
-  content: '\e017';
+    content: '\e017';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-tags_alt::before,
 .ei-icon_tags_alt::before {
-  content: '\e018';
+    content: '\e018';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-trash_alt::before,
 .ei-icon_trash_alt::before {
-  content: '\e019';
+    content: '\e019';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cursor_alt::before,
 .ei-icon_cursor_alt::before {
-  content: '\e01a';
+    content: '\e01a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-mic_alt::before,
 .ei-icon_mic_alt::before {
-  content: '\e01b';
+    content: '\e01b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-compass_alt::before,
 .ei-icon_compass_alt::before {
-  content: '\e01c';
+    content: '\e01c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pin_alt::before,
 .ei-icon_pin_alt::before {
-  content: '\e01d';
+    content: '\e01d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pushpin_alt::before,
 .ei-icon_pushpin_alt::before {
-  content: '\e01e';
+    content: '\e01e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-map_alt::before,
 .ei-icon_map_alt::before {
-  content: '\e01f';
+    content: '\e01f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-drawer_alt::before,
 .ei-icon_drawer_alt::before {
-  content: '\e020';
+    content: '\e020';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-toolbox_alt::before,
 .ei-icon_toolbox_alt::before {
-  content: '\e021';
+    content: '\e021';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-book_alt::before,
 .ei-icon_book_alt::before {
-  content: '\e022';
+    content: '\e022';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-calendar::before,
 .ei-icon_calendar::before {
-  content: '\e023';
+    content: '\e023';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-film::before,
 .ei-icon_film::before {
-  content: '\e024';
+    content: '\e024';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-table::before,
 .ei-icon_table::before {
-  content: '\e025';
+    content: '\e025';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-contacts_alt::before,
 .ei-icon_contacts_alt::before {
-  content: '\e026';
+    content: '\e026';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-headphones::before,
 .ei-icon_headphones::before {
-  content: '\e027';
+    content: '\e027';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-lifesaver::before,
 .ei-icon_lifesaver::before {
-  content: '\e028';
+    content: '\e028';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-piechart::before,
 .ei-icon_piechart::before {
-  content: '\e029';
+    content: '\e029';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-refresh::before,
 .ei-icon_refresh::before {
-  content: '\e02a';
+    content: '\e02a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-link_alt::before,
 .ei-icon_link_alt::before {
-  content: '\e02b';
+    content: '\e02b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-link::before,
 .ei-icon_link::before {
-  content: '\e02c';
+    content: '\e02c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-loading::before,
 .ei-icon_loading::before {
-  content: '\e02d';
+    content: '\e02d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-blocked::before,
 .ei-icon_blocked::before {
-  content: '\e02e';
+    content: '\e02e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-archive_alt::before,
 .ei-icon_archive_alt::before {
-  content: '\e02f';
+    content: '\e02f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-heart_alt::before,
 .ei-icon_heart_alt::before {
-  content: '\e030';
+    content: '\e030';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-star_alt::before,
 .ei-icon_star_alt::before {
-  content: '\e031';
+    content: '\e031';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-star-half_alt::before,
 .ei-icon_star-half_alt::before {
-  content: '\e032';
+    content: '\e032';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-star::before,
 .ei-icon_star::before {
-  content: '\e033';
+    content: '\e033';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-star-half::before,
 .ei-icon_star-half::before {
-  content: '\e034';
+    content: '\e034';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-tools::before,
 .ei-icon_tools::before {
-  content: '\e035';
+    content: '\e035';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-tool::before,
 .ei-icon_tool::before {
-  content: '\e036';
+    content: '\e036';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cog::before,
 .ei-icon_cog::before {
-  content: '\e037';
+    content: '\e037';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cogs::before,
 .ei-icon_cogs::before {
-  content: '\e038';
+    content: '\e038';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_up_alt::before,
 .ei-icon_arrow_up_alt::before {
-  content: '\e039';
+    content: '\e039';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_down_alt::before,
 .ei-icon_arrow_down_alt::before {
-  content: '\e03a';
+    content: '\e03a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left_alt::before,
 .ei-icon_arrow_left_alt::before {
-  content: '\e03b';
+    content: '\e03b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_right_alt::before,
 .ei-icon_arrow_right_alt::before {
-  content: '\e03c';
+    content: '\e03c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left-up_alt::before,
 .ei-icon_arrow_left-up_alt::before {
-  content: '\e03d';
+    content: '\e03d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_right-up_alt::before,
 .ei-icon_arrow_right-up_alt::before {
-  content: '\e03e';
+    content: '\e03e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_right-down_alt::before,
 .ei-icon_arrow_right-down_alt::before {
-  content: '\e03f';
+    content: '\e03f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_left-down_alt::before,
 .ei-icon_arrow_left-down_alt::before {
-  content: '\e040';
+    content: '\e040';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_condense_alt::before,
 .ei-icon_arrow_condense_alt::before {
-  content: '\e041';
+    content: '\e041';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_expand_alt3::before,
 .ei-icon_arrow_expand_alt3::before {
-  content: '\e042';
+    content: '\e042';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot_up_alt::before,
 .ei-icon_arrow_carrot_up_alt::before {
-  content: '\e043';
+    content: '\e043';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-down_alt::before,
 .ei-icon_arrow_carrot-down_alt::before {
-  content: '\e044';
+    content: '\e044';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-left_alt::before,
 .ei-icon_arrow_carrot-left_alt::before {
-  content: '\e045';
+    content: '\e045';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-right_alt::before,
 .ei-icon_arrow_carrot-right_alt::before {
-  content: '\e046';
+    content: '\e046';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2up_alt::before,
 .ei-icon_arrow_carrot-2up_alt::before {
-  content: '\e047';
+    content: '\e047';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2dwnn_alt::before,
 .ei-icon_arrow_carrot-2dwnn_alt::before {
-  content: '\e048';
+    content: '\e048';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2left_alt::before,
 .ei-icon_arrow_carrot-2left_alt::before {
-  content: '\e049';
+    content: '\e049';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_carrot-2right_alt::before,
 .ei-icon_arrow_carrot-2right_alt::before {
-  content: '\e04a';
+    content: '\e04a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-up_alt::before,
 .ei-icon_arrow_triangle-up_alt::before {
-  content: '\e04b';
+    content: '\e04b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-down_alt::before,
 .ei-icon_arrow_triangle-down_alt::before {
-  content: '\e04c';
+    content: '\e04c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-left_alt::before,
 .ei-icon_arrow_triangle-left_alt::before {
-  content: '\e04d';
+    content: '\e04d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-arrow_triangle-right_alt::before,
 .ei-icon_arrow_triangle-right_alt::before {
-  content: '\e04e';
+    content: '\e04e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-minus_alt::before,
 .ei-icon_minus_alt::before {
-  content: '\e04f';
+    content: '\e04f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-plus_alt::before,
 .ei-icon_plus_alt::before {
-  content: '\e050';
+    content: '\e050';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-close_alt::before,
 .ei-icon_close_alt::before {
-  content: '\e051';
+    content: '\e051';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-check_alt::before,
 .ei-icon_check_alt::before {
-  content: '\e052';
+    content: '\e052';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-zoom-out::before,
 .ei-icon_zoom-out::before {
-  content: '\e053';
+    content: '\e053';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-zoom-in::before,
 .ei-icon_zoom-in::before {
-  content: '\e054';
+    content: '\e054';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-stop_alt::before,
 .ei-icon_stop_alt::before {
-  content: '\e055';
+    content: '\e055';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-menu-square_alt::before,
 .ei-icon_menu-square_alt::before {
-  content: '\e056';
+    content: '\e056';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-menu-circle_alt::before,
 .ei-icon_menu-circle_alt::before {
-  content: '\e057';
+    content: '\e057';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-document::before,
 .ei-icon_document::before {
-  content: '\e058';
+    content: '\e058';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-documents::before,
 .ei-icon_documents::before {
-  content: '\e059';
+    content: '\e059';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pencil_alt::before,
 .ei-icon_pencil_alt::before {
-  content: '\e05a';
+    content: '\e05a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder::before,
 .ei-icon_folder::before {
-  content: '\e05b';
+    content: '\e05b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder-open::before,
 .ei-icon_folder-open::before {
-  content: '\e05c';
+    content: '\e05c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder-add::before,
 .ei-icon_folder-add::before {
-  content: '\e05d';
+    content: '\e05d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder_upload::before,
 .ei-icon_folder_upload::before {
-  content: '\e05e';
+    content: '\e05e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-folder_download::before,
 .ei-icon_folder_download::before {
-  content: '\e05f';
+    content: '\e05f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-info::before,
 .ei-icon_info::before {
-  content: '\e060';
+    content: '\e060';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-error-circle::before,
 .ei-icon_error-circle::before {
-  content: '\e061';
+    content: '\e061';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-error-oct::before,
 .ei-icon_error-oct::before {
-  content: '\e062';
+    content: '\e062';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-error-triangle::before,
 .ei-icon_error-triangle::before {
-  content: '\e063';
+    content: '\e063';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-question_alt::before,
 .ei-icon_question_alt::before {
-  content: '\e064';
+    content: '\e064';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-comment::before,
 .ei-icon_comment::before {
-  content: '\e065';
+    content: '\e065';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-chat::before,
 .ei-icon_chat::before {
-  content: '\e066';
+    content: '\e066';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-vol-mute::before,
 .ei-icon_vol-mute::before {
-  content: '\e067';
+    content: '\e067';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-volume-low::before,
 .ei-icon_volume-low::before {
-  content: '\e068';
+    content: '\e068';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-volume-high::before,
 .ei-icon_volume-high::before {
-  content: '\e069';
+    content: '\e069';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-quotations_alt::before,
 .ei-icon_quotations_alt::before {
-  content: '\e06a';
+    content: '\e06a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-clock::before,
 .ei-icon_clock::before {
-  content: '\e06b';
+    content: '\e06b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-lock::before,
 .ei-icon_lock::before {
-  content: '\e06c';
+    content: '\e06c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-lock-open::before,
 .ei-icon_lock-open::before {
-  content: '\e06d';
+    content: '\e06d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-key::before,
 .ei-icon_key::before {
-  content: '\e06e';
+    content: '\e06e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cloud::before,
 .ei-icon_cloud::before {
-  content: '\e06f';
+    content: '\e06f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cloud-upload::before,
 .ei-icon_cloud-upload::before {
-  content: '\e070';
+    content: '\e070';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cloud-download::before,
 .ei-icon_cloud-download::before {
-  content: '\e071';
+    content: '\e071';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-lightbulb::before,
 .ei-icon_lightbulb::before {
-  content: '\e072';
+    content: '\e072';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-gift::before,
 .ei-icon_gift::before {
-  content: '\e073';
+    content: '\e073';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-house::before,
 .ei-icon_house::before {
-  content: '\e074';
+    content: '\e074';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-camera::before,
 .ei-icon_camera::before {
-  content: '\e075';
+    content: '\e075';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-mail::before,
 .ei-icon_mail::before {
-  content: '\e076';
+    content: '\e076';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cone::before,
 .ei-icon_cone::before {
-  content: '\e077';
+    content: '\e077';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-ribbon::before,
 .ei-icon_ribbon::before {
-  content: '\e078';
+    content: '\e078';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-bag::before,
 .ei-icon_bag::before {
-  content: '\e079';
+    content: '\e079';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cart::before,
 .ei-icon_cart::before {
-  content: '\e07a';
+    content: '\e07a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-tag::before,
 .ei-icon_tag::before {
-  content: '\e07b';
+    content: '\e07b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-tags::before,
 .ei-icon_tags::before {
-  content: '\e07c';
+    content: '\e07c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-trash::before,
 .ei-icon_trash::before {
-  content: '\e07d';
+    content: '\e07d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-cursor::before,
 .ei-icon_cursor::before {
-  content: '\e07e';
+    content: '\e07e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-mic::before,
 .ei-icon_mic::before {
-  content: '\e07f';
+    content: '\e07f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-compass::before,
 .ei-icon_compass::before {
-  content: '\e080';
+    content: '\e080';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pin::before,
 .ei-icon_pin::before {
-  content: '\e081';
+    content: '\e081';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pushpin::before,
 .ei-icon_pushpin::before {
-  content: '\e082';
+    content: '\e082';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-map::before,
 .ei-icon_map::before {
-  content: '\e083';
+    content: '\e083';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-drawer::before,
 .ei-icon_drawer::before {
-  content: '\e084';
+    content: '\e084';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-toolbox::before,
 .ei-icon_toolbox::before {
-  content: '\e085';
+    content: '\e085';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-book::before,
 .ei-icon_book::before {
-  content: '\e086';
+    content: '\e086';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-contacts::before,
 .ei-icon_contacts::before {
-  content: '\e087';
+    content: '\e087';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-archive::before,
 .ei-icon_archive::before {
-  content: '\e088';
+    content: '\e088';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-heart::before,
 .ei-icon_heart::before {
-  content: '\e089';
+    content: '\e089';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-profile::before,
 .ei-icon_profile::before {
-  content: '\e08a';
+    content: '\e08a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-group::before,
 .ei-icon_group::before {
-  content: '\e08b';
+    content: '\e08b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-grid-2x2::before,
 .ei-icon_grid-2x2::before {
-  content: '\e08c';
+    content: '\e08c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-grid-3x3::before,
 .ei-icon_grid-3x3::before {
-  content: '\e08d';
+    content: '\e08d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-music::before,
 .ei-icon_music::before {
-  content: '\e08e';
+    content: '\e08e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pause_alt::before,
 .ei-icon_pause_alt::before {
-  content: '\e08f';
+    content: '\e08f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-phone::before,
 .ei-icon_phone::before {
-  content: '\e090';
+    content: '\e090';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-upload::before,
 .ei-icon_upload::before {
-  content: '\e091';
+    content: '\e091';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-download::before,
 .ei-icon_download::before {
-  content: '\e092';
+    content: '\e092';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_facebook::before,
 .ei-icon_social_facebook::before {
-  content: '\e093';
+    content: '\e093';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_twitter::before,
 .ei-icon_social_twitter::before {
-  content: '\e094';
+    content: '\e094';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_pinterest::before,
 .ei-icon_social_pinterest::before {
-  content: '\e095';
+    content: '\e095';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_googleplus::before,
 .ei-icon_social_googleplus::before {
-  content: '\e096';
+    content: '\e096';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_tumblr::before,
 .ei-icon_social_tumblr::before {
-  content: '\e097';
+    content: '\e097';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_tumbleupon::before,
 .ei-icon_social_tumbleupon::before {
-  content: '\e098';
+    content: '\e098';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_wordpress::before,
 .ei-icon_social_wordpress::before {
-  content: '\e099';
+    content: '\e099';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_instagram::before,
 .ei-icon_social_instagram::before {
-  content: '\e09a';
+    content: '\e09a';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_dribbble::before,
 .ei-icon_social_dribbble::before {
-  content: '\e09b';
+    content: '\e09b';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_vimeo::before,
 .ei-icon_social_vimeo::before {
-  content: '\e09c';
+    content: '\e09c';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_linkedin::before,
 .ei-icon_social_linkedin::before {
-  content: '\e09d';
+    content: '\e09d';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_rss::before,
 .ei-icon_social_rss::before {
-  content: '\e09e';
+    content: '\e09e';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_deviantart::before,
 .ei-icon_social_deviantart::before {
-  content: '\e09f';
+    content: '\e09f';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_share::before,
 .ei-icon_social_share::before {
-  content: '\e0a0';
+    content: '\e0a0';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_myspace::before,
 .ei-icon_social_myspace::before {
-  content: '\e0a1';
+    content: '\e0a1';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_skype::before,
 .ei-icon_social_skype::before {
-  content: '\e0a2';
+    content: '\e0a2';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_youtube::before,
 .ei-icon_social_youtube::before {
-  content: '\e0a3';
+    content: '\e0a3';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_picassa::before,
 .ei-icon_social_picassa::before {
-  content: '\e0a4';
+    content: '\e0a4';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_googledrive::before,
 .ei-icon_social_googledrive::before {
-  content: '\e0a5';
+    content: '\e0a5';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_flickr::before,
 .ei-icon_social_flickr::before {
-  content: '\e0a6';
+    content: '\e0a6';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_blogger::before,
 .ei-icon_social_blogger::before {
-  content: '\e0a7';
+    content: '\e0a7';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_spotify::before,
 .ei-icon_social_spotify::before {
-  content: '\e0a8';
+    content: '\e0a8';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_delicious::before,
 .ei-icon_social_delicious::before {
-  content: '\e0a9';
+    content: '\e0a9';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_facebook_circle::before,
 .ei-icon_social_facebook_circle::before {
-  content: '\e0aa';
+    content: '\e0aa';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_twitter_circle::before,
 .ei-icon_social_twitter_circle::before {
-  content: '\e0ab';
+    content: '\e0ab';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_pinterest_circle::before,
 .ei-icon_social_pinterest_circle::before {
-  content: '\e0ac';
+    content: '\e0ac';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_googleplus_circle::before,
 .ei-icon_social_googleplus_circle::before {
-  content: '\e0ad';
+    content: '\e0ad';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_tumblr_circle::before,
 .ei-icon_social_tumblr_circle::before {
-  content: '\e0ae';
+    content: '\e0ae';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_stumbleupon_circle::before,
 .ei-icon_social_stumbleupon_circle::before {
-  content: '\e0af';
+    content: '\e0af';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_wordpress_circle::before,
 .ei-icon_social_wordpress_circle::before {
-  content: '\e0b0';
+    content: '\e0b0';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_instagram_circle::before,
 .ei-icon_social_instagram_circle::before {
-  content: '\e0b1';
+    content: '\e0b1';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_dribbble_circle::before,
 .ei-icon_social_dribbble_circle::before {
-  content: '\e0b2';
+    content: '\e0b2';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_vimeo_circle::before,
 .ei-icon_social_vimeo_circle::before {
-  content: '\e0b3';
+    content: '\e0b3';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_linkedin_circle::before,
 .ei-icon_social_linkedin_circle::before {
-  content: '\e0b4';
+    content: '\e0b4';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_rss_circle::before,
 .ei-icon_social_rss_circle::before {
-  content: '\e0b5';
+    content: '\e0b5';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_deviantart_circle::before,
 .ei-icon_social_deviantart_circle::before {
-  content: '\e0b6';
+    content: '\e0b6';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_share_circle::before,
 .ei-icon_social_share_circle::before {
-  content: '\e0b7';
+    content: '\e0b7';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_myspace_circle::before,
 .ei-icon_social_myspace_circle::before {
-  content: '\e0b8';
+    content: '\e0b8';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_skype_circle::before,
 .ei-icon_social_skype_circle::before {
-  content: '\e0b9';
+    content: '\e0b9';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_youtube_circle::before,
 .ei-icon_social_youtube_circle::before {
-  content: '\e0ba';
+    content: '\e0ba';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_picassa_circle::before,
 .ei-icon_social_picassa_circle::before {
-  content: '\e0bb';
+    content: '\e0bb';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_googledrive_alt2::before,
 .ei-icon_social_googledrive_alt2::before {
-  content: '\e0bc';
+    content: '\e0bc';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_flickr_circle::before,
 .ei-icon_social_flickr_circle::before {
-  content: '\e0bd';
+    content: '\e0bd';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_blogger_circle::before,
 .ei-icon_social_blogger_circle::before {
-  content: '\e0be';
+    content: '\e0be';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_spotify_circle::before,
 .ei-icon_social_spotify_circle::before {
-  content: '\e0bf';
+    content: '\e0bf';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_delicious_circle::before,
 .ei-icon_social_delicious_circle::before {
-  content: '\e0c0';
+    content: '\e0c0';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_facebook_square::before,
 .ei-icon_social_facebook_square::before {
-  content: '\e0c1';
+    content: '\e0c1';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_twitter_square::before,
 .ei-icon_social_twitter_square::before {
-  content: '\e0c2';
+    content: '\e0c2';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_pinterest_square::before,
 .ei-icon_social_pinterest_square::before {
-  content: '\e0c3';
+    content: '\e0c3';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_googleplus_square::before,
 .ei-icon_social_googleplus_square::before {
-  content: '\e0c4';
+    content: '\e0c4';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_tumblr_square::before,
 .ei-icon_social_tumblr_square::before {
-  content: '\e0c5';
+    content: '\e0c5';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_stumbleupon_square::before,
 .ei-icon_social_stumbleupon_square::before {
-  content: '\e0c6';
+    content: '\e0c6';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_wordpress_square::before,
 .ei-icon_social_wordpress_square::before {
-  content: '\e0c7';
+    content: '\e0c7';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_instagram_square::before,
 .ei-icon_social_instagram_square::before {
-  content: '\e0c8';
+    content: '\e0c8';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_dribbble_square::before,
 .ei-icon_social_dribbble_square::before {
-  content: '\e0c9';
+    content: '\e0c9';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_vimeo_square::before,
 .ei-icon_social_vimeo_square::before {
-  content: '\e0ca';
+    content: '\e0ca';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_linkedin_square::before,
 .ei-icon_social_linkedin_square::before {
-  content: '\e0cb';
+    content: '\e0cb';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_rss_square::before,
 .ei-icon_social_rss_square::before {
-  content: '\e0cc';
+    content: '\e0cc';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_deviantart_square::before,
 .ei-icon_social_deviantart_square::before {
-  content: '\e0cd';
+    content: '\e0cd';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_share_square::before,
 .ei-icon_social_share_square::before {
-  content: '\e0ce';
+    content: '\e0ce';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_myspace_square::before,
 .ei-icon_social_myspace_square::before {
-  content: '\e0cf';
+    content: '\e0cf';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_skype_square::before,
 .ei-icon_social_skype_square::before {
-  content: '\e0d0';
+    content: '\e0d0';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_youtube_square::before,
 .ei-icon_social_youtube_square::before {
-  content: '\e0d1';
+    content: '\e0d1';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_picassa_square::before,
 .ei-icon_social_picassa_square::before {
-  content: '\e0d2';
+    content: '\e0d2';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_googledrive_square::before,
 .ei-icon_social_googledrive_square::before {
-  content: '\e0d3';
+    content: '\e0d3';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_flickr_square::before,
 .ei-icon_social_flickr_square::before {
-  content: '\e0d4';
+    content: '\e0d4';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_blogger_square::before,
 .ei-icon_social_blogger_square::before {
-  content: '\e0d5';
+    content: '\e0d5';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_spotify_square::before,
 .ei-icon_social_spotify_square::before {
-  content: '\e0d6';
+    content: '\e0d6';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-social_delicious_square::before,
 .ei-icon_social_delicious_square::before {
-  content: '\e0d7';
+    content: '\e0d7';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-printer::before,
 .ei-icon_printer::before {
-  content: '\e103';
+    content: '\e103';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-calulator::before,
 .ei-icon_calulator::before {
-  content: '\e0ee';
+    content: '\e0ee';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-building::before,
 .ei-icon_building::before {
-  content: '\e0ef';
+    content: '\e0ef';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-floppy::before,
 .ei-icon_floppy::before {
-  content: '\e0e8';
+    content: '\e0e8';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-drive::before,
 .ei-icon_drive::before {
-  content: '\e0ea';
+    content: '\e0ea';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-search-2::before,
 .ei-icon_search-2::before {
-  content: '\e101';
+    content: '\e101';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-id::before,
 .ei-icon_id::before {
-  content: '\e107';
+    content: '\e107';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-id-2::before,
 .ei-icon_id-2::before {
-  content: '\e108';
+    content: '\e108';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-puzzle::before,
 .ei-icon_puzzle::before {
-  content: '\e102';
+    content: '\e102';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-like::before,
 .ei-icon_like::before {
-  content: '\e106';
+    content: '\e106';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-dislike::before,
 .ei-icon_dislike::before {
-  content: '\e0eb';
+    content: '\e0eb';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-mug::before,
 .ei-icon_mug::before {
-  content: '\e105';
+    content: '\e105';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-currency::before,
 .ei-icon_currency::before {
-  content: '\e0ed';
+    content: '\e0ed';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-wallet::before,
 .ei-icon_wallet::before {
-  content: '\e100';
+    content: '\e100';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pens::before,
 .ei-icon_pens::before {
-  content: '\e104';
+    content: '\e104';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-easel::before,
 .ei-icon_easel::before {
-  content: '\e0e9';
+    content: '\e0e9';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-flowchart::before,
 .ei-icon_flowchart::before {
-  content: '\e109';
+    content: '\e109';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-datareport::before,
 .ei-icon_datareport::before {
-  content: '\e0ec';
+    content: '\e0ec';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-briefcase::before,
 .ei-icon_briefcase::before {
-  content: '\e0fe';
+    content: '\e0fe';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-shield::before,
 .ei-icon_shield::before {
-  content: '\e0f6';
+    content: '\e0f6';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-percent::before,
 .ei-icon_percent::before {
-  content: '\e0fb';
+    content: '\e0fb';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-globe::before,
 .ei-icon_globe::before {
-  content: '\e0e2';
+    content: '\e0e2';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-globe-2::before,
 .ei-icon_globe-2::before {
-  content: '\e0e3';
+    content: '\e0e3';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-target::before,
 .ei-icon_target::before {
-  content: '\e0f5';
+    content: '\e0f5';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-hourglass::before,
 .ei-icon_hourglass::before {
-  content: '\e0e1';
+    content: '\e0e1';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-balance::before,
 .ei-icon_balance::before {
-  content: '\e0ff';
+    content: '\e0ff';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-rook::before,
 .ei-icon_rook::before {
-  content: '\e0f8';
+    content: '\e0f8';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-printer-alt::before,
 .ei-icon_printer-alt::before {
-  content: '\e0fa';
+    content: '\e0fa';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-calculator_alt::before,
 .ei-icon_calculator_alt::before {
-  content: '\e0e7';
+    content: '\e0e7';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-building_alt::before,
 .ei-icon_building_alt::before {
-  content: '\e0fd';
+    content: '\e0fd';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-floppy_alt::before,
 .ei-icon_floppy_alt::before {
-  content: '\e0e4';
+    content: '\e0e4';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-drive_alt::before,
 .ei-icon_drive_alt::before {
-  content: '\e0e5';
+    content: '\e0e5';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-search_alt::before,
 .ei-icon_search_alt::before {
-  content: '\e0f7';
+    content: '\e0f7';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-id_alt::before,
 .ei-icon_id_alt::before {
-  content: '\e0e0';
+    content: '\e0e0';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-id-2_alt::before,
 .ei-icon_id-2_alt::before {
-  content: '\e0fc';
+    content: '\e0fc';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-puzzle_alt::before,
 .ei-icon_puzzle_alt::before {
-  content: '\e0f9';
+    content: '\e0f9';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-like_alt::before,
 .ei-icon_like_alt::before {
-  content: '\e0dd';
+    content: '\e0dd';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-dislike_alt::before,
 .ei-icon_dislike_alt::before {
-  content: '\e0f1';
+    content: '\e0f1';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-mug_alt::before,
 .ei-icon_mug_alt::before {
-  content: '\e0dc';
+    content: '\e0dc';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-currency_alt::before,
 .ei-icon_currency_alt::before {
-  content: '\e0f3';
+    content: '\e0f3';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-wallet_alt::before,
 .ei-icon_wallet_alt::before {
-  content: '\e0d8';
+    content: '\e0d8';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-pens_alt::before,
 .ei-icon_pens_alt::before {
-  content: '\e0db';
+    content: '\e0db';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-easel_alt::before,
 .ei-icon_easel_alt::before {
-  content: '\e0f0';
+    content: '\e0f0';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-flowchart_alt::before,
 .ei-icon_flowchart_alt::before {
-  content: '\e0df';
+    content: '\e0df';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-datareport_alt::before,
 .ei-icon_datareport_alt::before {
-  content: '\e0f2';
+    content: '\e0f2';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-briefcase_alt::before,
 .ei-icon_briefcase_alt::before {
-  content: '\e0f4';
+    content: '\e0f4';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-shield_alt::before,
 .ei-icon_shield_alt::before {
-  content: '\e0d9';
+    content: '\e0d9';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-percent_alt::before,
 .ei-icon_percent_alt::before {
-  content: '\e0da';
+    content: '\e0da';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-globe_alt::before,
 .ei-icon_globe_alt::before {
-  content: '\e0de';
+    content: '\e0de';
 }
 
 /* line 26, elegant-icons-sass.scss */
 .ei-clipboard::before,
 .ei-icon_clipboard::before {
-  content: '\e0e6';
+    content: '\e0e6';
 }

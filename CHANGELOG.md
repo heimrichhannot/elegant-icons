@@ -1,6 +1,27 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.5] - 2017-12-18
+
+### Fixed
+- dropped obsolete font files `elegant-icons`
+- restored misspelled css classes and scss, less variables
+
+## [1.2.4] - 2017-12-18
+
+### Fixed
+- restored @ei-var-circle-slelected at variables.less
+
+## [1.2.3] - 2017-12-18
+
+### Fixed
+- spelling mistakes in less
+
+## [1.2.2] - 2017-12-05
+
+### Fixed
+- less variables for updated elegant icons font (see 1.2.0)
+
 ## [1.2.1] - 2017-12-04
 
 ### Fixed
