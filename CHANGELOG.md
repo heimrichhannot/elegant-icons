@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.5] - 2017-12-18
+
+### Fixed
+- dropped obsolete font files `elegant-icons`
+- restored misspelled css classes and scss, less variables
+
 ## [1.3.4] - 2017-12-18
 
 ### Fixed
