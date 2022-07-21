@@ -1,3 +1,5 @@
+> This repo in abandoned!
+
 # Elegant Icon Font
 
 Composer/Component Package to provide the famous elegant icon font library containin 360 icons with less support. Created by: http://www.elegantthemes.com/blog/resources/elegant-icon-font
